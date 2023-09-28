@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a183d;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #081429;
+}
+
+.name h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.name p {
+    margin: 0;
+    font-style: italic;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.profil {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+/* Styles pour les sections de boîtes */
+/* Styles pour le conteneur des boîtes */
+.box-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+    justify-content: space-between; /* Espace équitablement les boîtes horizontalement */
+}
+
+/* Styles pour les sections de boîtes */
+.box {
+    width: calc(50% - 20px); /* La moitié de la largeur avec une petite marge */
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+/* Styles personnalisés pour chaque section de boîte */
+/* Vous pouvez ajuster la largeur et les styles en fonction de vos besoins */
+
+
+.box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles personnalisés pour chaque section de boîte */
+/* Vous pouvez ajouter des styles spécifiques à chaque section ici */
+
+
+footer {
+    text-align: center;
+    background-color: #081429;
+    color: white;
+    padding: 10px;
+}
