@@ -17,3 +17,17 @@
     // // Démarrer l'effet de frappe
     // afficherTexteProgressivement(texteAInserer, 100); // 100 millisecondes de délai entre chaque caractère
 
+    const profileBox = document.getElementById('profileBox');
+    let isZoomed = false;
+
+    profileBox.addEventListener('click', () => {
+        if (!isZoomed) {
+            profileBox.classList.add('zoomed');
+            isZoomed = true;
+            document.body.classList.add('blur');
+        } else {
+            profileBox.classList.remove('zoomed');
+            isZoomed = false;
+            document.body.classList.remove('blur');
+        }
+    });
